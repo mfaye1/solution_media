@@ -84,7 +84,6 @@ p {
 le header
 ***************************************************************/
 header {
-    margin-bottom: -1%;
     width: 100%;
 }
 
@@ -231,8 +230,8 @@ le slider en CSS
 ***********************************************/
 
 #banner {
-    margin-bottom: -1%;
     width: 100%;
+    margin-bottom: -0.3%;
 }
 
 #slider {
@@ -326,10 +325,13 @@ main {
 }
 
 #wrapper {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
-
+main p{
+    margin:0;
+    padding: 3%;
+}
 /*********************************************
 le footer
 ***********************************************/
