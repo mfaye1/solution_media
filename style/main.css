@@ -107,7 +107,6 @@ header .tolbar div, .second_menu, .last_menu {
 }
 
 .tolbar img {
-    float: left;
     margin-right: 15px;
 }
 
@@ -120,8 +119,12 @@ header .tolbar div, .second_menu, .last_menu {
     display: inline;
     color: white;
     margin-right: 15px;
+    line-height: 20px;
 }
+.tolbar a{
+    line-height: 20px;
 
+}
 .tolbar p:first-of-type {
     border-right: solid 1px white;
 }
@@ -188,7 +191,7 @@ form input {
 }
 #menu li a:hover {
     color:blue;
-    border-bottom: solid 4px blue;
+    border-bottom: solid 7px blue;
 }
 
 #menu ul li ul {
@@ -218,7 +221,10 @@ form input {
     position:absolute ;
     width: 250px;
     height: 200px;
-    background-color: rgba(176, 176, 176, 0.3);
+    background-color: rgba(205, 205, 205, 0.6);
+}
+.deroulant li:hover{
+    color: black;
 }
 /**********************************************
 le slider en CSS
@@ -322,4 +328,12 @@ main {
 #wrapper {
     width: 80%;
     margin: auto;
+}
+
+/*********************************************
+le footer
+***********************************************/
+footer{
+    height: 200px;
+    background-color: dimgrey;
 }
