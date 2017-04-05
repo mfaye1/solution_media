@@ -2,9 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="style/main.css">
+    <script type="text/javascript" src="script/main.js"></script>
+
+
     <title>Title</title>
 </head>
 <body>
-
+<header>
+    <div class="tolbar">
+        <div>
+            <img src="images/ico-phone.png">
+            <a href="#">SALES</a>
+            <p>1 800 880 00 00</p>
+            <a href="#">SERVICES</a>
+            <p>1 800 008 0088</p>
+        </div>
+    </div>
+    <div id="les_menus">
+        <div class="second_menu row">
+            <div class="col-2">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="col-10">
+                <nav>
+                    <ul>
+                        <li><a href="#">News and videos</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="last_menu">
+            <nav>
+                <div class="row">
+                    <div class="col-11 " id="menu">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">New Vehicles</a>
+                                <ul class="deroulant">
+                                    <li><a href="#">Mercedes Benz Collection</a></li>
+                                    <li><a href="#">Smart Collection</a></li>
+                                    <li><a href="#">Sprinter collection</a></li>
+                                    <li><a href="#">Diplomatic sale Infromation </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pre-owned Vehicles</a></li>
+                            <li><a href="#">Special Offers</a></li>
+                            <li><a href="#">Parts and Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-1">
+                        <img src="images/ico-loupe.png" alt="">
+                        <form method="post" action="#">
+                            <label for="recherche"></label>
+                            <!--je lui ai creer ce label vide uniqement pour des besoin de css et pour un code qui respectera les norme du W3c-->
+                            <input type="search" name="recherche" id="recherche" placeholder="search">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="header_left">
+            <img src="images/header-bg-left.png" alt="">
+        </div>
+        <div class="header_right">
+            <img src="images/header-bg-right.png" alt="">
+        </div>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked/>
+            <input type="radio" name="slider" id="slide2"/>
+            <input type="radio" name="slider" id="slide3"/>
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <article>
+                            <img src="images/header-img-1.png" alt="">
+                        </article>
+                        <article>
+                            <img src="images/header-img-2.png" alt="">
+                        </article>
+                        <article>
+                            <img src="images/header-img-3.png" alt="">
+                        </article>
+                    </div>
+                </div>
+                <div id="active">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div id="wrapper">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt, risus eget hendrerit ornare, sapien
+            magna ultrices lacus, a sollicitudin sapien nibh in lacus. In in elementum enim, nec faucibus libero. Morbi
+            ac malesuada justo. Morbi sed turpis felis. Vestibulum ornare mi in maximus malesuada. Donec id metus ut
+            mauris feugiat molestie. Curabitur ac nisl et odio sollicitudin fringilla a eu tortor. Etiam eu sem a lacus
+            faucibus sodales sed auctor enim. Pellentesque vitae feugiat risus. Pellentesque tempus orci ut velit
+            luctus, at elementum nibh elementum. Nunc pretium mattis luctus. Praesent vel aliquam ligula, eget aliquet
+            nisi. Morbi a elementum tellus. Phasellus id est non lorem facilisis maximus. Etiam ornare nibh quis
+            tincidunt ornare.</p>
+        <p>
+            Morbi ut consectetur ipsum. Pellentesque dapibus vehicula felis a sagittis. Morbi aliquet vulputate
+            accumsan. Suspendisse ipsum leo, hendrerit sed venenatis ac, luctus eget lectus. Ut non tellus ut sapien
+            placerat pharetra ut vel neque. Praesent rhoncus mi nec mollis luctus. Maecenas elementum dolor metus,
+            consectetur egestas odio sollicitudin sed. Suspendisse sed elementum enim, a mattis arcu. Curabitur volutpat
+            auctor urna, eget gravida tellus suscipit id. Mauris quam tortor, lobortis non auctor sed, volutpat quis
+            turpis. Mauris vitae rhoncus libero. Aliquam id dignissim ante, et condimentum quam. Sed eu posuere nisl. Ut
+            hendrerit feugiat lacus elementum bibendum.
+        </p>
+        <p>
+            Quisque vestibulum ipsum at sem consequat bibendum. Proin sit amet quam sem. Proin sit amet enim laoreet
+            dolor blandit condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam dui mi,
+            interdum cursus placerat id, faucibus ac nulla. Etiam euismod tellus purus, posuere lacinia ligula tincidunt
+            sed. Sed pellentesque metus tortor. Sed magna sem, tincidunt sit amet justo et, aliquam scelerisque tortor.
+            Ut mattis nunc id enim tincidunt, eu volutpat ante porttitor. Etiam id ligula dictum, lacinia nunc quis,
+            lobortis nunc. Maecenas id sapien orci. Nam mollis aliquet interdum. Duis iaculis volutpat libero, quis
+            tristique elit tincidunt ut. Integer aliquam velit dui, at bibendum elit luctus in.</p>
+    </div>
+</main>
 </body>
 </html>

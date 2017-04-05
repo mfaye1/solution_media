@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+}
+
+aside, div, section, header, footer, nav {
+    display: block;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(191, 182, 228, 0.37);
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 11px 15px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#les_menus {
+    width: 100%;
+    background-color: white;
+}
+
+/*------------------------------utilisation d'un systeme de grille en cas de besoin pour du responsive-------------------------------------------------------*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*************************************************************
+le header
+***************************************************************/
+header {
+    margin-bottom: -1%;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header .tolbar div, .second_menu, .last_menu {
+    width: 50%;
+    margin: auto;
+}
+
+/**** le tolbar************************/
+.tolbar {
+    background-color: dimgrey;
+}
+
+.tolbar img {
+    float: left;
+    margin-right: 15px;
+}
+
+.tolbar div {
+    width: 50%;
+    height: 25px;
+}
+
+.tolbar p {
+    display: inline;
+    color: white;
+    margin-right: 15px;
+}
+
+.tolbar p:first-of-type {
+    border-right: solid 1px white;
+}
+
+/************les deux menus */
+.second_menu img {
+    width: 120px;
+    float: left;
+}
+
+.second_menu nav {
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.second_menu nav ul {
+    margin: 0;
+}
+
+.second_menu nav li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+}
+
+.second_menu nav li a {
+    text-decoration: none;
+}
+
+form input {
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.last_menu nav li {
+    display: inline-block;
+    text-align: left;
+    margin-right: 2%;
+}
+
+.last_menu img {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 5px;
+}
+/*************** le hover */
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    text-align:left;
+}
+#menu li {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+#menu li a {
+    display:block;
+    color:black;
+    text-decoration:none;
+}
+#menu li a:hover {
+    color:blue;
+    border-bottom: solid 4px blue;
+}
+
+#menu ul li ul {
+    display:none;
+}
+
+#menu ul li:hover ul {
+    display:inline-block;
+}
+#menu li:hover ul li {
+    float:none;
+}
+
+#menu li ul {
+    /*position:relative;*/
+}
+.deroulant li {
+    display: block;
+    background-color: transparent;
+    margin-top: 3%;
+    padding: 5%;
+}
+.deroulant li a{
+    background-color: transparent;
+}
+.deroulant{
+    position:absolute ;
+    width: 250px;
+    height: 200px;
+    background-color: rgba(176, 176, 176, 0.3);
+}
+/**********************************************
+le slider en CSS
+***********************************************/
+
+#banner {
+    margin-bottom: -1%;
+    width: 100%;
+}
+
+#slider {
+    width: 60.2%;
+    margin: auto;
+}
+
+.inner {
+    width: 500%;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+article {
+    width: 100%;
+    margin: auto;
+}
+
+article img {
+    width: 100%;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+#slides article {
+    width: 20%;
+    float: left;
+}
+
+#active label {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid lightgrey;
+}
+
+#active {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -4%;
+}
+
+#active label:hover {
+    opacity: 0.5;
+    background-color: blue;
+}
+
+#slide1:checked ~ #slides .inner {
+    margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+}
+
+#slides .inner {
+    -webkit-transition: all 700ms ease-in-out;
+    transition: all 700ms ease-in-out;
+}
+
+.header_left img {
+    float: left;
+    width: 19.9%;
+}
+
+.header_right img {
+    float: right;
+    width: 19.9%;
+    height: 100%;
+}
+
+/*****************************
+le slider et le main
+*****************************/
+main {
+    width: 60.2%;
+    margin: auto;
+    background-color: white;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
