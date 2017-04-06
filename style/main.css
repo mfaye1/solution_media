@@ -145,10 +145,15 @@ header .tolbar div, .second_menu, .last_menu {
 
 .second_menu nav li {
     display: inline-block;
-    width: 18%;
+    width: 17%;
     text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
-
+.second_menu nav li:first-of-type{
+    width: 120px;
+}
 .second_menu nav li a {
     text-decoration: none;
 }
