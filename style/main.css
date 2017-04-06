@@ -103,8 +103,8 @@ header .tolbar div, .second_menu, .last_menu {
 /**** le tolbar************************/
 .tolbar {
     background-color: dimgrey;
+    height: 30px;
 }
-
 .tolbar img {
     margin-right: 15px;
 }
@@ -118,10 +118,10 @@ header .tolbar div, .second_menu, .last_menu {
     display: inline;
     color: white;
     margin-right: 15px;
-    line-height: 20px;
+    line-height: 30px;
 }
 .tolbar a{
-    line-height: 20px;
+    line-height: 30px;
 
 }
 .tolbar p:first-of-type {
@@ -150,6 +150,7 @@ header .tolbar div, .second_menu, .last_menu {
     font-weight: bold;
     font-family: Arial, sans-serif;
     font-size: 13px;
+    line-height: 45px;
 }
 .second_menu nav li:first-of-type{
     width: 120px;
